@@ -30,8 +30,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files and local secrets — never commit these
+.env
+.env.*
+
+# stripe projects CLI state
+.projects/
 
 # vercel
 .vercel
@@ -39,3 +43,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local object store and envelopes
+/data
