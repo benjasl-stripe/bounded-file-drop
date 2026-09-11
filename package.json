@@ -1,5 +1,5 @@
 {
-  "name": "mpp-service1",
+  "name": "bounded-file-drop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
